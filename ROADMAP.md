@@ -4,26 +4,24 @@
 
 | Phase | Description | Status | Progress |
 |-------|------------|--------|----------|
-| Phase 1 | Raw Masterplan | ✅ Infrastructure Ready | 50% |
-| Phase 2 | Deep Research (Vooronderzoek) | ⏳ Next | 0% |
+| Phase 1 | Raw Masterplan | ✅ Done | 100% |
+| Phase 2 | Deep Research (Vooronderzoek) | 🔄 In Progress | 0% |
 | Phase 3 | Masterplan Refinement | ⏳ Pending | 0% |
 | Phase 4 | Topic-Specific Research | ⏳ Pending | 0% |
 | Phase 5 | Skill Creation | ⏳ Pending | 0% |
 | Phase 6 | Validation | ⏳ Pending | 0% |
 | Phase 7 | Publication | ⏳ Pending | 0% |
 
-**Overall Progress**: 7% (infrastructure created, methodology in place)
+**Overall Progress**: 14% (Phase 1 complete, raw masterplan + sources ready)
 
 ## Next Steps
 
-1. Complete Phase 1: Create raw masterplan in `docs/masterplan/{{TECH_PREFIX}}-masterplan.md`
-   - Define preliminary skill inventory based on technology knowledge
-   - Estimate skill count per category
-   - Identify key API areas to cover
-2. Begin Phase 2: Deep Research
-   - Research Axum comprehensively using SOURCES.md approved URLs
-   - Create `docs/research/vooronderzoek-{{TECH_PREFIX}}.md`
-   - Use WebFetch for latest official documentation
+1. Phase 2: Deep Research
+   - 3 parallel opus research agents per topic-cluster → `docs/research/fragments/`
+   - Synthesize `docs/research/vooronderzoek-axum.md` (2000+ words)
+   - WebFetch verification against SOURCES.md approved URLs
+2. Phase 3: Masterplan refinement + user checkpoint
+3. Phase 4+5: tmux-orchestration skill creation (3 workers)
 
 ## Skill Summary
 
