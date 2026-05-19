@@ -1,0 +1,44 @@
+# Privacy : NEVER commit these
+PROMPTS.md
+SKILLS_LOG.md
+.claude/
+CLAUDE.local.md
+*.code-workspace
+
+# tmux-orchestration state (workspace-local, not for repo)
+state/
+.tmo/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+build/
+mcp-server/dist/
+
+# OS files
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# IDE
+# .vscode/                # uncomment if no tasks.json shared
+# !.vscode/tasks.json     # required by tmux-orchestration
+
+# Temp / logs
+*.tmp
+*.log
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Graphify cache (commit graph.html + GRAPH_REPORT.md, ignore rest)
+graphify-out/cache/
+graphify-out/manifest.json
+graphify-out/cost.json

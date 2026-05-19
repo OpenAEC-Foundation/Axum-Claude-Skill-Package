@@ -1,0 +1,23 @@
+{
+  "name": "@openaec/axum-claude-skill-package",
+  "version": "1.0.0",
+  "description": "0 deterministic Claude AI skills for Axum 0.7,0.8",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenAEC-Foundation/Axum-Claude-Skill-Package"
+  },
+  "homepage": "https://github.com/OpenAEC-Foundation/Axum-Claude-Skill-Package#readme",
+  "keywords": [
+    "agent-skills",
+    "agentskills",
+    "claude-skills",
+    "claude-code",
+    "axum",
+    "rust",
+    "openaec"
+  ],
+  "agents": {
+    "skills": []
+  }
+}
