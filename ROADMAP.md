@@ -6,33 +6,32 @@
 |-------|------------|--------|----------|
 | Phase 1 | Raw Masterplan | ✅ Done | 100% |
 | Phase 2 | Deep Research (Vooronderzoek) | ✅ Done | 100% |
-| Phase 3 | Masterplan Refinement | 🔄 In Progress | 0% |
-| Phase 4 | Topic-Specific Research | ⏳ Pending | 0% |
-| Phase 5 | Skill Creation | ⏳ Pending | 0% |
+| Phase 3 | Masterplan Refinement | ✅ Done | 100% |
+| Phase 4 | Topic-Specific Research | 🔄 In Progress | 0% |
+| Phase 5 | Skill Creation | 🔄 In Progress | 0% |
 | Phase 6 | Validation | ⏳ Pending | 0% |
 | Phase 7 | Publication | ⏳ Pending | 0% |
 
-**Overall Progress**: 28% (Phase 1-2 complete, research verified)
+**Overall Progress**: 42% (masterplan approved, 29 skills planned, Phase 4+5 starting)
 
 ## Next Steps
 
-1. Phase 3: Masterplan refinement + user checkpoint
-   - Refinement decisions table (MERGE/DROP/SPLIT/ADD)
-   - Batch execution plan with dependencies
-   - Complete agent prompts per skill
-   - User approval before Phase 4/5
-2. Phase 4+5: tmux-orchestration skill creation (3 workers)
+1. Phase 4+5: tmux-orchestration skill creation (3 workers, 10 batches)
+   - Per batch: in-process opus topic-research, then dispatch to 3 tmux workers
+   - Quality gate every worker reply, commit per batch
+   - Respawn workers between batches (L-007 context overflow)
+2. STOP after Phase 5 (no GitHub push, per session instruction)
 
 ## Skill Summary
 
 | Category | Estimated | Created | Validated |
 |----------|-----------|---------|-----------|
-| syntax/ | TBD | 0 | 0 |
-| impl/ | TBD | 0 | 0 |
-| errors/ | TBD | 0 | 0 |
-| core/ | TBD | 0 | 0 |
-| agents/ | TBD | 0 | 0 |
-| **Total** | **TBD** | **0** | **0** |
+| core/ | 5 | 0 | 0 |
+| syntax/ | 4 | 0 | 0 |
+| impl/ | 15 | 0 | 0 |
+| errors/ | 3 | 0 | 0 |
+| agents/ | 2 | 0 | 0 |
+| **Total** | **29** | **0** | **0** |
 
 ## Changelog
 
@@ -47,3 +46,10 @@
 - Synthesized `docs/research/vooronderzoek-axum.md` (~2,800 words)
 - SOURCES.md Last-Verified set to 2026-05-20, companion crates added
 - Lessons L-001 to L-003 recorded
+
+### Phase 3 — Masterplan Refinement (2026-05-20)
+- Refinement decisions D-01..D-05 (1 SPLIT, 1 MERGE, 2 RENAME, 1 FOLD)
+- Final inventory: 29 skills, 5 categories, 10 batches
+- Complete per-skill scope + agent prompt blocks in masterplan
+- DECISIONS.md D-008, D-009 recorded
+- User checkpoint: approved
