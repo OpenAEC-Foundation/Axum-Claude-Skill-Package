@@ -26,12 +26,14 @@
 
 | Category | Estimated | Created | Validated |
 |----------|-----------|---------|-----------|
-| core/ | 5 | 0 | 0 |
+| core/ | 5 | 3 | 3 |
 | syntax/ | 4 | 0 | 0 |
 | impl/ | 15 | 0 | 0 |
 | errors/ | 3 | 0 | 0 |
 | agents/ | 2 | 0 | 0 |
-| **Total** | **29** | **0** | **0** |
+| **Total** | **29** | **3** | **3** |
+
+Batch progress: B1 ✅ | B2-B10 ⏳
 
 ## Changelog
 
