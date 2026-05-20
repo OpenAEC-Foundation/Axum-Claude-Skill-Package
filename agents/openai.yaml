@@ -2,6 +2,6 @@
 # https://platform.openai.com/docs/codex/skills
 name: axum-claude-skill-package
 description: >
-  0 deterministic Claude AI skills for Axum 0.7,0.8.
+  29 deterministic Claude AI skills for Axum 0.7,0.8.
   Deterministic Claude skills for Axum : Rust async web framework, routing, extractors, middleware, tower stack, sqlx integration. Companion to Rust and PostgreSQL
 skills_directory: ./skills/source

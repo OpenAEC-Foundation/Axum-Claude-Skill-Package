@@ -1,7 +1,7 @@
 {
   "name": "@openaec/axum-claude-skill-package",
   "version": "1.0.0",
-  "description": "0 deterministic Claude AI skills for Axum 0.7,0.8",
+  "description": "29 deterministic Claude AI skills for Axum 0.7,0.8",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -18,6 +18,123 @@
     "openaec"
   ],
   "agents": {
-    "skills": []
+    "skills": [
+      {
+        "name": "axum-agents-api-review",
+        "path": "./skills/source/axum-agents/axum-agents-api-review"
+      },
+      {
+        "name": "axum-agents-scaffold",
+        "path": "./skills/source/axum-agents/axum-agents-scaffold"
+      },
+      {
+        "name": "axum-core-architecture",
+        "path": "./skills/source/axum-core/axum-core-architecture"
+      },
+      {
+        "name": "axum-core-async-performance",
+        "path": "./skills/source/axum-core/axum-core-async-performance"
+      },
+      {
+        "name": "axum-core-router",
+        "path": "./skills/source/axum-core/axum-core-router"
+      },
+      {
+        "name": "axum-core-state",
+        "path": "./skills/source/axum-core/axum-core-state"
+      },
+      {
+        "name": "axum-core-version-migration",
+        "path": "./skills/source/axum-core/axum-core-version-migration"
+      },
+      {
+        "name": "axum-errors-extractor-rejections",
+        "path": "./skills/source/axum-errors/axum-errors-extractor-rejections"
+      },
+      {
+        "name": "axum-errors-handler-trait",
+        "path": "./skills/source/axum-errors/axum-errors-handler-trait"
+      },
+      {
+        "name": "axum-errors-handling",
+        "path": "./skills/source/axum-errors/axum-errors-handling"
+      },
+      {
+        "name": "axum-impl-auth-jwt",
+        "path": "./skills/source/axum-impl/axum-impl-auth-jwt"
+      },
+      {
+        "name": "axum-impl-auth-session",
+        "path": "./skills/source/axum-impl/axum-impl-auth-session"
+      },
+      {
+        "name": "axum-impl-authorization",
+        "path": "./skills/source/axum-impl/axum-impl-authorization"
+      },
+      {
+        "name": "axum-impl-database",
+        "path": "./skills/source/axum-impl/axum-impl-database"
+      },
+      {
+        "name": "axum-impl-deployment",
+        "path": "./skills/source/axum-impl/axum-impl-deployment"
+      },
+      {
+        "name": "axum-impl-file-upload",
+        "path": "./skills/source/axum-impl/axum-impl-file-upload"
+      },
+      {
+        "name": "axum-impl-middleware",
+        "path": "./skills/source/axum-impl/axum-impl-middleware"
+      },
+      {
+        "name": "axum-impl-openapi",
+        "path": "./skills/source/axum-impl/axum-impl-openapi"
+      },
+      {
+        "name": "axum-impl-sse",
+        "path": "./skills/source/axum-impl/axum-impl-sse"
+      },
+      {
+        "name": "axum-impl-static-files",
+        "path": "./skills/source/axum-impl/axum-impl-static-files"
+      },
+      {
+        "name": "axum-impl-testing",
+        "path": "./skills/source/axum-impl/axum-impl-testing"
+      },
+      {
+        "name": "axum-impl-tower-stack",
+        "path": "./skills/source/axum-impl/axum-impl-tower-stack"
+      },
+      {
+        "name": "axum-impl-tracing",
+        "path": "./skills/source/axum-impl/axum-impl-tracing"
+      },
+      {
+        "name": "axum-impl-validation",
+        "path": "./skills/source/axum-impl/axum-impl-validation"
+      },
+      {
+        "name": "axum-impl-websockets",
+        "path": "./skills/source/axum-impl/axum-impl-websockets"
+      },
+      {
+        "name": "axum-syntax-custom-extractors",
+        "path": "./skills/source/axum-syntax/axum-syntax-custom-extractors"
+      },
+      {
+        "name": "axum-syntax-extractors",
+        "path": "./skills/source/axum-syntax/axum-syntax-extractors"
+      },
+      {
+        "name": "axum-syntax-handlers",
+        "path": "./skills/source/axum-syntax/axum-syntax-handlers"
+      },
+      {
+        "name": "axum-syntax-responses",
+        "path": "./skills/source/axum-syntax/axum-syntax-responses"
+      }
+    ]
   }
 }
