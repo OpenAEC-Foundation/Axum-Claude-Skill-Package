@@ -80,7 +80,7 @@ type is `IntoResponse`, produced future is `Send`.
 /extensions without status/body). Built-in impls: `()`, `&str`/`String`, `Vec<u8>`/
 `Bytes`, `StatusCode`, `(StatusCode, T)`, `(StatusCode, HeaderMap, T)`, `(StatusCode,
 [(HeaderName, V); N], T)`, `Json<T>`, `Html<T>`, `Result<T, E>`. `Redirect::to` (303),
-`::permanent` (301), `::temporary` (307). `AppendHeaders` preserves existing headers.
+`::permanent` (308), `::temporary` (307). `AppendHeaders` preserves existing headers.
 Cookies are not in core: use `axum-extra` `CookieJar`/`SignedCookieJar`/
 `PrivateCookieJar`, or raw `Set-Cookie` headers.
 
