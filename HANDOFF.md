@@ -1,57 +1,49 @@
 # Handoff : Axum-Claude-Skill-Package
 
-> Last updated : 2026-05-19
-> Generated from Skill-Package-Workflow-Template BOOTSTRAP-RUNBOOK
+> Last updated : 2026-05-20
 
 ## Status
 
-- **Phase** : {{CURRENT_PHASE}} (e.g. Phase 1 raw masterplan / Phase 5 batch N/M / v1.0.0 PUBLISHED)
-- **Skills** : {{SKILL_COUNT_CURRENT}} / {{SKILL_COUNT_PLANNED}}
+- **Phase** : v1.0.0 PUBLISHED — all 7 phases complete
+- **Skills** : 29 / 29
 - **GitHub remote** : https://github.com/OpenAEC-Foundation/Axum-Claude-Skill-Package
-- **Last commit** : {{LAST_COMMIT_SHA}} {{LAST_COMMIT_SUBJECT}}
-- **Compliance score** : {{COMPLIANCE_SCORE}}%
+- **Release** : https://github.com/OpenAEC-Foundation/Axum-Claude-Skill-Package/releases/tag/v1.0.0
+- **Last commit** : 74b7d0f docs(phase-7): final compliance audit (100%)
+- **Compliance score** : 100%
 
 ## What is done
 
-- {{COMPLETED_ITEM_1}}
-- {{COMPLETED_ITEM_2}}
+- 29 deterministic skills across 5 categories (core 5, syntax 4, impl 15, errors 3, agents 2)
+- All skills WebFetch-verified, validator-green, under 500 lines, with 3 reference files each
+- Phase 2 research (vooronderzoek + 3 fragments) and Phase 4 per-skill topic research
+- Discovery manifests: package.json agents.skills[], agents/openai.yaml, INDEX.md
+- GitHub repo public under OpenAEC-Foundation, pushed, topics set (incl. agentskills)
+- v1.0.0 tag and GitHub release live
+- Social preview banner rendered (docs/social-preview.png, 1280x640)
 
 ## What is open
 
-- {{OPEN_ITEM_1}}
-- {{OPEN_ITEM_2}}
+- **Social preview image upload** : GitHub has no API for the repository social-preview
+  image. Upload `docs/social-preview.png` manually via repo Settings -> Social preview -> Edit.
 
 ## Next-session entry point
 
-Open this workspace in VS Code and run :
+The package is complete. Possible follow-up work:
 
-```
-Lees START-PROMPT.md en hervat vanaf {{CURRENT_PHASE}}.
-```
-
-Of expliciet :
-
-```
-Lees BOOTSTRAP-RUNBOOK.md van Skill-Package-Workflow-Template en hervat phase {{NEXT_PHASE_NUM}}.
-```
-
-## Active batch (if in Phase 5)
-
-| Worker | Skill | Status | tmo task ID |
-|--------|-------|--------|-------------|
-| worker-1 | {{SKILL_A}} | {{STATUS_A}} | T-{{ID_A}} |
-| worker-2 | {{SKILL_B}} | {{STATUS_B}} | T-{{ID_B}} |
-| worker-3 | {{SKILL_C}} | {{STATUS_C}} | T-{{ID_C}} |
-
-## Decisions blocking next step
-
-- {{DECISION_NEEDED}} (zie OPEN-QUESTIONS.md Q-XXX)
+- Upload the social preview image (see above)
+- v1.1.x feedback round after real-world usage
+- Cross-Tech-AEC integration once dependent packages are published
+- Optional MCP-server parallel track (Speckle-style)
 
 ## Special notes
 
-- {{NOTE_1}}
-- {{NOTE_2}}
+- Phase 5 ran via tmux-orchestration with 3 workers (axum-w1/2/3) named to avoid
+  collision with a concurrent Cesium skill-package build in the same tmux server.
+- A separate role file `axum-skill-builder.md` was created in the tmux-orchestration
+  plugin roles directory (the existing `skill-builder.md` was Cesium-specific).
+- `state/` (tmo orchestration audit log) is gitignored and not part of the release.
 
 ---
 
-**Anti-pattern caveat** : HANDOFF.md MOET synchroon blijven met ROADMAP.md. Bij elke phase-completion : update beide in dezelfde commit. Cross-Tech L-016 toonde dat drift tussen HANDOFF en ROADMAP leidt tot foute aannames.
+**Anti-pattern caveat** : HANDOFF.md MUST stay in sync with ROADMAP.md. Update both in
+the same commit on every phase completion.
