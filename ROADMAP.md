@@ -10,17 +10,15 @@
 | Phase 4 | Topic-Specific Research | ✅ Done | 100% |
 | Phase 5 | Skill Creation | ✅ Done | 100% |
 | Phase 6 | Validation | ✅ Done | 100% |
-| Phase 7 | Publication | 🔄 In Progress | 0% |
+| Phase 7 | Publication | ✅ Done | 100% |
 
-**Overall Progress**: 90% (29 skills built + validated, audit 100%, publication pending)
+**Status**: COMPLETE — v1.0.0 published
+
+**Overall Progress**: 100% (29 skills published, v1.0.0 release live)
 
 ## Next Steps
 
-1. Phase 7: Publication
-   - Finalize README.md with skill catalog table
-   - Social preview banner (1280x640)
-   - Create GitHub repo OpenAEC-Foundation/Axum-Claude-Skill-Package, push
-   - Repository topics, v1.0.0 tag + release
+None. Package complete and published.
 
 ## Skill Summary
 
@@ -69,3 +67,10 @@ Batch progress: B1-B10 ✅ all complete
 - Compliance audit: 100% (4/4 checks), `docs/validation/audit-report.md`
 - Functional validation record: `docs/validation/functional-test.md`
 - Phase 6.5: package.json agents.skills[] (29), agents/openai.yaml, INDEX.md regenerated
+
+### Phase 7 — Publication (2026-05-20)
+- README.md finalized: skill catalog, badges, real Axum example
+- Social preview banner rendered (1280x640 PNG)
+- CHANGELOG.md: [1.0.0] entry
+- GitHub repo OpenAEC-Foundation/Axum-Claude-Skill-Package created and pushed
+- Topics set, v1.0.0 tag + GitHub release
